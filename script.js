@@ -87,5 +87,6 @@ exo5_3Btn.addEventListener('click', e => {
 // Exercice 5 question 4.
 let exo5_4Btn = document.querySelector('.script-5-4');
 exo5_4Btn.addEventListener('click', e => {
-    console.log('test');      
-})
+  sortedArray = entrepreneurs.sort((a,b) => (a.last > b.last) ? 1 : ((b.last > a.last) ? -1 : 0))
+  console.log(sortedArray);      
+  })
